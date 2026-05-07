@@ -1,0 +1,62 @@
+# Allentown
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Atterberg Limits](https://allentown.geotechnicalengineering1.sbs/atterberg-limits/)
+- [Base Isolation Seismic Design](https://allentown.geotechnicalengineering1.sbs/base-isolation-seismic-design/)
+- [Bearing Capacity Analysis](https://allentown.geotechnicalengineering1.sbs/bearing-capacity-analysis/)
+- [Cbr Study Road Design](https://allentown.geotechnicalengineering1.sbs/cbr-study-road-design/)
+- [Collapsible Soil Evaluation](https://allentown.geotechnicalengineering1.sbs/collapsible-soil-evaluation/)
+- [Cone Penetration](https://allentown.geotechnicalengineering1.sbs/cone-penetration/)
+- [Debris Flow Analysis](https://allentown.geotechnicalengineering1.sbs/debris-flow-analysis/)
+- [Deep Soil Mixing](https://allentown.geotechnicalengineering1.sbs/deep-soil-mixing/)
+- [Differential Settlement Analysis](https://allentown.geotechnicalengineering1.sbs/differential-settlement-analysis/)
+- [Driven Pile Design](https://allentown.geotechnicalengineering1.sbs/driven-pile-design/)
+- [Dynamic Compaction Design](https://allentown.geotechnicalengineering1.sbs/dynamic-compaction-design/)
+- [Electrical Resistivity Ves](https://allentown.geotechnicalengineering1.sbs/electrical-resistivity-ves/)
+- [Existing Pavement Evaluation](https://allentown.geotechnicalengineering1.sbs/existing-pavement-evaluation/)
+- [Expansive Soil Evaluation](https://allentown.geotechnicalengineering1.sbs/expansive-soil-evaluation/)
+- [Field Permeability](https://allentown.geotechnicalengineering1.sbs/field-permeability/)
+- [Flat Dilatometer](https://allentown.geotechnicalengineering1.sbs/flat-dilatometer/)
+- [Foundations](https://allentown.geotechnicalengineering1.sbs/foundations/)
+- [Foundations Fill](https://allentown.geotechnicalengineering1.sbs/foundations-fill/)
+- [Geogrid Specification](https://allentown.geotechnicalengineering1.sbs/geogrid-specification/)
+- [Geophysics](https://allentown.geotechnicalengineering1.sbs/geophysics/)
+- [Geotechnical Analysis Soft Soil](https://allentown.geotechnicalengineering1.sbs/geotechnical-analysis-soft-soil/)
+- [Geotechnical Instrumentation](https://allentown.geotechnicalengineering1.sbs/geotechnical-instrumentation/)
+- [Ground Improvement](https://allentown.geotechnicalengineering1.sbs/ground-improvement/)
+- [Ground Penetrating Radar](https://allentown.geotechnicalengineering1.sbs/ground-penetrating-radar/)
+- [In Situ Testing](https://allentown.geotechnicalengineering1.sbs/in-situ-testing/)
+- [Investigation](https://allentown.geotechnicalengineering1.sbs/investigation/)
+- [Jet Grouting Design](https://allentown.geotechnicalengineering1.sbs/jet-grouting-design/)
+- [Laboratory](https://allentown.geotechnicalengineering1.sbs/laboratory/)
+- [Laboratory Cbr](https://allentown.geotechnicalengineering1.sbs/laboratory-cbr/)
+- [Laboratory Permeability](https://allentown.geotechnicalengineering1.sbs/laboratory-permeability/)
+- [Landfill Geotechnics](https://allentown.geotechnicalengineering1.sbs/landfill-geotechnics/)
+- [Landslide Assessment](https://allentown.geotechnicalengineering1.sbs/landslide-assessment/)
+- [Lime Cement Stabilization](https://allentown.geotechnicalengineering1.sbs/lime-cement-stabilization/)
+- [Mechanically Stabilized Earth](https://allentown.geotechnicalengineering1.sbs/mechanically-stabilized-earth/)
+- [Oedometer Consolidation](https://allentown.geotechnicalengineering1.sbs/oedometer-consolidation/)
+- [Organic Soil Management](https://allentown.geotechnicalengineering1.sbs/organic-soil-management/)
+- [Pavement Subgrade Design](https://allentown.geotechnicalengineering1.sbs/pavement-subgrade-design/)
+- [Pile Foundation Design](https://allentown.geotechnicalengineering1.sbs/pile-foundation-design/)
+- [Porchet Double Ring Infiltrometer](https://allentown.geotechnicalengineering1.sbs/porchet-double-ring-infiltrometer/)
+- [Preloading Design](https://allentown.geotechnicalengineering1.sbs/preloading-design/)
+- [Preloading Surcharge Design](https://allentown.geotechnicalengineering1.sbs/preloading-surcharge-design/)
+- [Residual Soil Characterization](https://allentown.geotechnicalengineering1.sbs/residual-soil-characterization/)
+- [Retaining Wall Design](https://allentown.geotechnicalengineering1.sbs/retaining-wall-design/)
+- [Rigid Pavement Design](https://allentown.geotechnicalengineering1.sbs/rigid-pavement-design/)
+- [Road Subgrade Design](https://allentown.geotechnicalengineering1.sbs/road-subgrade-design/)
+- [Roadway](https://allentown.geotechnicalengineering1.sbs/roadway/)
+- [Seismic](https://allentown.geotechnicalengineering1.sbs/seismic/)
+- [Settlement Analysis](https://allentown.geotechnicalengineering1.sbs/settlement-analysis/)
+- [Site Response Analysis](https://allentown.geotechnicalengineering1.sbs/site-response-analysis/)
+- [Slope Failure Analysis](https://allentown.geotechnicalengineering1.sbs/slope-failure-analysis/)
+
+## Contact
+- Website: https://allentown.geotechnicalengineering1.sbs/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
