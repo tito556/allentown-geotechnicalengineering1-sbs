@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#4B0082) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <nav class="navbar">
@@ -184,7 +220,7 @@ header.hero, .hero { position: relative !important; }
 
 <section class="section"><h2>Standards that apply</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>ASCE 7-22 (Seismic site classification and liquefaction evaluation), IBC 2021 (Chapter 18 – Soils and Foundations), ASTM D1586-18 (Standard Test Method for SPT), FHWA GEC-1 (Improvement Methods, Volume III)</p></section>
+<p>ASCE 7-22 (Seismic site classification and liquefaction evaluation), IBC 2021 (Chapter 18 – Soils and <a href="/foundations/">Foundations</a>), ASTM D1586-18 (Standard Test Method for SPT), FHWA GEC-1 (Improvement Methods, Volume III)</p></section>
 
 <section class="section"><h2>Quick answers</h2><details><summary>How does dynamic compaction compare to vibro-compaction for Allentown soils?</summary><p>Dynamic compaction works better for deeper loose fills with cobbles or debris, common in Allentown's industrial areas. Vibro-compaction is more effective in clean sands but struggles with the mixed fill we see near the Lehigh River. We choose based on grain size and target depth.</p></details><details><summary>What is the typical cost range for dynamic compaction design in Allentown?</summary><p>A full design package including field verification ranges between US$1,360 and US$3,820, depending on site size and the number of test drops required. This covers energy calculations, grid layout, and post-treatment testing.</p></details><details><summary>How deep can dynamic compaction improve the ground in Allentown?</summary><p>With a 20-ton tamper dropped from 40 meters, we achieve measurable improvement down to 10 meters in granular fills. Deeper treatment requires higher energy or a secondary pass after crater refilling.</p></details><details><summary>Will dynamic compaction damage nearby buildings in Allentown?</summary><p>Vibration levels at 30 meters from the drop point typically stay below 0.5 in/s PPV, which is safe for most structures. We monitor with seismographs and adjust the drop height if a historic building is within 15 meters of the grid.</p></details></section>
 

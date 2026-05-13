@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#4B0082) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <nav class="navbar">
@@ -186,7 +222,7 @@ header.hero, .hero { position: relative !important; }
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
 <p>IBC 1803.5 (Foundation and Geotechnical Investigations), ASTM D1586-18 (<a href="../standard-penetration/" data-interlink="1">Standard Penetration Test</a>), ASTM D2487-17 (Classification of Soils), ASCE 7-16 (Minimum Design Loads)</p></section>
 
-<section class="section"><h2>Quick answers</h2><details><summary>What is the typical bearing capacity of Allentown's shale saprolite?</summary><p>For sound shale saprolite, allowable bearing pressures typically range from 80 to 150 kPa depending on weathering grade and fracture spacing. We determine this through SPT N-values correlated with local experience.</p></details><details><summary>How does the Lehigh River floodplain affect bearing capacity analysis in Allentown?</summary><p>The floodplain deposits are loose sands and soft clays with higher groundwater levels. Bearing capacity can drop to 50–100 kPa, and scour around foundations must be evaluated per IBC 1805.2.2.</p></details><details><summary>Which standards govern bearing capacity analysis in Allentown?</summary><p>ASCE 7-16 for load combinations, IBC 1803 for geotechnical investigation requirements, and ASTM D1586-18 for SPT procedures. Local building officials may also require adherence to Pennsylvania's Uniform Construction Code.</p></details><details><summary>How much does a bearing capacity analysis cost in Allentown?</summary><p>The cost typically ranges from US$620 to US$1,910, depending on the number of borings, lab testing requirements, and site accessibility. Contact us for a detailed quote based on your specific project scope.</p></details></section>
+<section class="section"><h2>Quick answers</h2><details><summary>What is the typical bearing capacity of Allentown's shale saprolite?</summary><p>For sound shale saprolite, allowable bearing pressures typically range from 80 to 150 kPa depending on weathering grade and fracture spacing. We determine this through SPT N-values correlated with local experience.</p></details><details><summary>How does the Lehigh River floodplain affect bearing capacity analysis in Allentown?</summary><p>The floodplain deposits are loose sands and soft clays with higher groundwater levels. Bearing capacity can drop to 50–100 kPa, and scour around <a href="/foundations/">foundations</a> must be evaluated per IBC 1805.2.2.</p></details><details><summary>Which standards govern bearing capacity analysis in Allentown?</summary><p>ASCE 7-16 for load combinations, IBC 1803 for geotechnical investigation requirements, and ASTM D1586-18 for SPT procedures. Local building officials may also require adherence to Pennsylvania's Uniform Construction Code.</p></details><details><summary>How much does a bearing capacity analysis cost in Allentown?</summary><p>The cost typically ranges from US$620 to US$1,910, depending on the number of borings, lab testing requirements, and site accessibility. Contact us for a detailed quote based on your specific project scope.</p></details></section>
 
 
     <section class="block map-block" style="padding:3rem 1.5rem">

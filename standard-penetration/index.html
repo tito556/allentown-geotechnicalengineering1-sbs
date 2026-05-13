@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#4B0082) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <nav class="navbar">
@@ -186,7 +222,7 @@ header.hero, .hero { position: relative !important; }
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
 <p>ASTM D1586-18, IBC 2021 Chapter 18, ASCE/SEI 7-22, AASHTO T-206</p></section>
 
-<section class="section"><h2>Quick answers</h2><details><summary>What is the SPT and how is it performed in Allentown?</summary><p>The standard penetration test (SPT) is a dynamic penetration test performed in boreholes. A 140 lb hammer drops 30 inches, driving a split-barrel sampler into the soil. The blow count per foot, known as the N-value, is recorded. In Allentown, we follow ASTM D1586 and typically sample every 1.5 meters in urban fills and every 1.0 meter in sensitive alluvial deposits.</p></details><details><summary>How much does an SPT test cost in Allentown?</summary><p>The typical cost for an SPT boring in Allentown ranges from US$540 to US$810 per test point, depending on depth, access, and number of samples. This includes drilling, sampling, and field logging. Final lab testing and report are usually quoted separately. Contact us for a site-specific estimate.</p></details><details><summary>What N-value indicates good bearing capacity in Allentown?</summary><p>For most Allentown soils, N-values above 30 blows/ft indicate dense sand or gravel with good bearing capacity. Values between 10 and 25 are common in the Lehigh River floodplain and suggest medium-dense conditions requiring moderate foundation design. N-values below 8 in sandy layers usually call for deep foundations or Improvement.</p></details><details><summary>Can SPT detect groundwater issues in Allentown?</summary><p>Yes. During the SPT, we note the depth at which water enters the borehole. In Allentown's valley areas, the water table can be as shallow as 3 to 6 feet after heavy rain. This information is critical for basement design and dewatering planning. The SPT is not a substitute for a dedicated piezometer, but it provides a reliable first indication.</p></details></section>
+<section class="section"><h2>Quick answers</h2><details><summary>What is the SPT and how is it performed in Allentown?</summary><p>The standard penetration test (SPT) is a dynamic penetration test performed in boreholes. A 140 lb hammer drops 30 inches, driving a split-barrel sampler into the soil. The blow count per foot, known as the N-value, is recorded. In Allentown, we follow ASTM D1586 and typically sample every 1.5 meters in urban fills and every 1.0 meter in sensitive alluvial deposits.</p></details><details><summary>How much does an SPT test cost in Allentown?</summary><p>The typical cost for an SPT boring in Allentown ranges from US$540 to US$810 per test point, depending on depth, access, and number of samples. This includes drilling, sampling, and field logging. Final lab testing and report are usually quoted separately. Contact us for a site-specific estimate.</p></details><details><summary>What N-value indicates good bearing capacity in Allentown?</summary><p>For most Allentown soils, N-values above 30 blows/ft indicate dense sand or gravel with good bearing capacity. Values between 10 and 25 are common in the Lehigh River floodplain and suggest medium-dense conditions requiring moderate foundation design. N-values below 8 in sandy layers usually call for deep <a href="/foundations/">foundations</a> or Improvement.</p></details><details><summary>Can SPT detect groundwater issues in Allentown?</summary><p>Yes. During the SPT, we note the depth at which water enters the borehole. In Allentown's valley areas, the water table can be as shallow as 3 to 6 feet after heavy rain. This information is critical for basement design and dewatering planning. The SPT is not a substitute for a dedicated piezometer, but it provides a reliable first indication.</p></details></section>
 
 
     <section class="block map-block" style="padding:3rem 1.5rem">

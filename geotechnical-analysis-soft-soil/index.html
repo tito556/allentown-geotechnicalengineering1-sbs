@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#4B0082) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <nav class="navbar">
@@ -184,7 +220,7 @@ header.hero, .hero { position: relative !important; }
 
 <section class="section"><h2>Standards that apply</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>ASCE 7-22 (Minimum Design Loads for Buildings and Other Structures), ASTM D1586-18 (Standard Test Method for SPT), ASTM D4767-11 (Consolidated Undrained Triaxial Compression Test), IBC 2021 Section 1803 (Geotechnical Investigations)</p></section>
+<p>ASCE 7-22 (Minimum Design Loads for Buildings and Other Structures), ASTM D1586-18 (Standard Test Method for SPT), ASTM D4767-11 (Consolidated Undrained <a href="/triaxial/">Triaxial</a> Compression Test), IBC 2021 Section 1803 (Geotechnical Investigations)</p></section>
 
 <section class="section"><h2>Quick answers</h2><details><summary>How much does a geotechnical analysis for a soft soil tunnel in Allentown cost?</summary><p>The typical range is US$4,500 to US$16,340, depending on borehole depth, number of samples, and laboratory testing scope. A preliminary quote is provided after reviewing the project size and site access.</p></details><details><summary>What soil conditions are most challenging for tunnels in Allentown?</summary><p>The saturated silty sands and soft clays in the Lehigh Valley alluvium create the highest risk. These soils have low cohesion and can flow into the excavation face if groundwater is not controlled. Proper dewatering and face support are critical.</p></details><details><summary>Which ASTM standards apply to soft soil tunnel investigations in Pennsylvania?</summary><p>Key standards include ASTM D1586-18 for SPT, ASTM D4767-11 for triaxial testing, ASTM D2435 for consolidation, and ASTM D4318 for <a href="../atterberg-limits/" data-interlink="1">Atterberg limits</a>. All are referenced in the IBC 2021 geotechnical requirements.</p></details><details><summary>How long does the field investigation phase typically take?</summary><p>For a typical tunnel alignment in Allentown, two to three weeks of drilling and sampling are standard. The schedule depends on borehole count, depth, and weather conditions. Laboratory testing adds another two to three weeks.</p></details></section>
 

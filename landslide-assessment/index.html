@@ -116,6 +116,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#4B0082) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 
 <nav class="navbar">
@@ -184,7 +220,7 @@ header.hero, .hero { position: relative !important; }
 
 <section class="section"><h2>Standards that apply</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>ASTM D6230 (Inclinometer Monitoring), ASTM D4719 (Pressuremeter Testing), ASCE 7-16 (Minimum Design Loads, Chapter 11 Seismic), FHWA-NHI-05-089 (Slope Stability Reference Manual)</p></section>
+<p>ASTM D6230 (Inclinometer Monitoring), ASTM D4719 (Pressuremeter Testing), ASCE 7-16 (Minimum Design Loads, Chapter 11 <a href="/seismic/">Seismic</a>), FHWA-NHI-05-089 (Slope Stability Reference Manual)</p></section>
 
 <section class="section"><h2>Quick answers</h2><details><summary>How do I know if my Allentown property needs a landslide assessment?</summary><p>If your lot is on a slope steeper than 15%, has visible tension cracks, or sits near an old landslide scar mapped by the Pennsylvania Geological Survey, a formal landslide assessment is advisable. We also recommend it when building within 30 meters of a drainage swale or creek.</p></details><details><summary>What is the cost range for a landslide assessment in Allentown?</summary><p>A typical residential landslide assessment including 2 boreholes, laboratory testing, and stability <a href="../foundations-fill/" data-interlink="1">analysis</a> costs between US$930 and US$3.720. The final price depends on site accessibility, depth to slip surface, and monitoring duration.</p></details><details><summary>What standards do you follow for slope stability calculations?</summary><p>We follow IBC 2021 for minimum factor of safety (static ≥1.5, seismic ≥1.1) and ASTM D6230 for inclinometer monitoring. Our limit-equilibrium models use the Spencer method for non-circular surfaces common in Allentown's colluvial soils.</p></details><details><summary>How long does a complete landslide assessment take?</summary><p>Field drilling and sampling take 2–4 days. Lab testing requires 2–3 weeks for consolidation and direct shear. The final report with stability <a href="../foundations-fill/" data-interlink="1">analysis</a> is delivered within 4 weeks of fieldwork completion. Monitoring extends 6–12 months if inclinometers are installed.</p></details></section>
 
